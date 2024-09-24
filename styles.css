@@ -1,0 +1,78 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style untuk header */
+header {
+    background-color: #333;
+    text-align: center;
+    padding:1% 0;
+}
+
+/* Style untuk aside (menu) */
+aside {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    background-color:#713d25;
+    color: #713d25;
+    height: calc(250vh - 150px); /* Sesuaikan tinggi dengan header dan footer */
+}
+
+/* Style untuk nav menu */
+aside nav ul {
+    list-style: none;
+}
+
+aside nav ul li {
+    margin-bottom: 10px;
+}
+
+aside nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style untuk section */
+section {
+    width: 75%;
+    float: right;
+    padding: 15px;
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 200px); /* Sesuaikan tinggi dengan header dan footer */
+}
+
+/* Style untuk footer */
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style untuk link di footer */
+footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
